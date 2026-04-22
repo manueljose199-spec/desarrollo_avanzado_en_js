@@ -1,0 +1,43 @@
+body {
+  font-family: Arial;
+  background: #f4f4f4;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+button {
+  padding: 10px 15px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+#listaPedidos {
+  max-width: 600px;
+  margin: auto;
+}
+
+.pedido {
+  background: white;
+  border-left: 5px solid orange;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+}
+
+.fila {
+  display: flex;
+  justify-content: space-between;
+}
+
+.proceso {
+  color: orange;
+  font-weight: bold;
+}
+
+.completado {
+  color: green;
+  font-weight: bold;
+}
