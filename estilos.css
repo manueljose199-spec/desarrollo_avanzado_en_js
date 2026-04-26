@@ -1,0 +1,27 @@
+body {
+  font-family: Arial;
+  text-align: center;
+  background: #0f172a;
+  color: white;
+}
+
+.contenedor {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 30px;
+}
+
+a {
+  text-decoration: none;
+  background: #1e293b;
+  padding: 15px;
+  border-radius: 10px;
+  color: white;
+  transition: 0.3s;
+}
+
+a:hover {
+  background: #38bdf8;
+  color: black;
+}
