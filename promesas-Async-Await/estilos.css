@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+    background-color: #f4f4f4;
+}
+
+h1 {
+    color: #333;
+}
+
+.formulario {
+    margin-bottom: 20px;
+}
+
+input {
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    padding: 10px 15px;
+    border: none;
+    background-color: #28a745;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+#resultado {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.mensaje {
+    margin: 5px;
+}
+
+.ok {
+    color: green;
+}
+
+.error {
+    color: red;
+}
+
+.info {
+    color: blue;
+}
+
+.warning {
+    color: orange;
+}
